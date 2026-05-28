@@ -1,0 +1,24 @@
+## Zeyobron -> Video1
+- ### Data Analytics
+	- Storage
+	- Process
+	- Analysis
+	- Decision
+- 1960's - DBMS - Charles Bachman
+- 1970's - Spreadsheets - Dan Bricklin, Bob Frankston
+- 1970'S - RDBMS - Edgar F. Codd
+- 1980's - Excel - Doug Klunder - developer, Charles Simonyi - Lead
+- 1980's - Internet
+- 1990's - Datawarehouse, Bill Inmon inventor.
+- 1995's - DFS, Doug Cutting
+	- DFS
+		- Storage - Distributed storage
+		- Process - Process Locality
+	- GFS
+		- Storage - Distributed storage
+		- Process - Data Locality
+- 2006 - HADOOP
+- 2020'S - AI/Data engineering
+-
+- ## Zeyobron -> Video2
+-
