@@ -4,21 +4,21 @@
 	- Process
 	- Analysis
 	- Decision
-- 1960's - DBMS - Charles Bachman
-- 1970's - Spreadsheets - Dan Bricklin, Bob Frankston
-- 1970'S - RDBMS - Edgar F. Codd
-- 1980's - Excel - Doug Klunder - developer, Charles Simonyi - Lead
-- 1980's - Internet
-- 1990's - Datawarehouse, Bill Inmon inventor.
-- 1995's - DFS, Doug Cutting
+- **1960's** - DBMS - Charles Bachman
+- **1970's** - Spreadsheets - Dan Bricklin, Bob Frankston
+- **1970's** - RDBMS - Edgar F. Codd
+- **1980's** - Excel - Doug Klunder - developer, Charles Simonyi - Lead
+- **1980's** - Internet
+- **1990's** - Datawarehouse, Bill Inmon inventor.
+- **1995's** - DFS, Doug Cutting
 	- DFS
 		- Storage - Distributed storage
 		- Process - Process Locality
 	- GFS
 		- Storage - Distributed storage
 		- Process - Data Locality
-- 2006 - HADOOP
-- 2020'S - AI/Data engineering
+- **2006** - HADOOP
+- **2020's** - AI/Data engineering
 -
 - ## Zeyobron -> Video2
 - Course overview
@@ -26,15 +26,14 @@
 - ## Zeyobron -> Video3
 - ### DFS - Distributed file system
 	- > Class lecture
-		- Distributed Storage -> Data divided into multiple chunks and being stored in multiple nodes/devices
-		- Process locality -> Data fetched to gateway system/laptop and processed
+		- **Distributed Storage** -> Data divided into multiple chunks and being stored in multiple nodes/devices
+		- **Process locality** -> Data fetched to gateway system/laptop and processed
 	- > Research -> Central processing
-		- Process locality is the practice of executing computation on the node where the required data already resides, or as close to it as possible, to minimize network data transfer.
+		- *Process locality is the practice of executing computation on the node where the required data already resides, or as close to it as possible, to minimize network data transfer. *
 		- **The Setup:** The data sat in a database or file system on a separate storage array.
 		- **The Process:** When you ran a query or an analysis job, the central server had to pull all the data across the network from the storage disk into its own central memory/CPU, process it, and write it back.
 		- **The Wall:** As datasets grew from gigabytes to terabytes, the network cables and the central server's bus became massive bottlenecks. You simply couldn't move the data fast enough across the wire to the central processor.
 	- **2005** -> introduced mapreduce to DFS by Doug Cutting and introduced to market as HADOOP system.
 	-
--
 - ## Zeyobron -> Video4
 -
