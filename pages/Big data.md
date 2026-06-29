@@ -13,7 +13,7 @@
 - **1995's** - DFS, Doug Cutting
 	- DFS
 		- Storage - Distributed storage
-		- Process - Process Locality
+		- Process - Process Locality/ Central Processing
 	- GFS
 		- Storage - Distributed storage
 		- Process - Data Locality
@@ -27,7 +27,7 @@
 - ### DFS - Distributed file system
 	- > Class lecture
 		- **Distributed Storage** -> Data divided into multiple chunks and being stored in multiple nodes/devices
-		- **Process locality** -> Data fetched to gateway system/laptop and processed
+		- **Process locality/ Central Processing** -> Data fetched to gateway system/laptop and processed
 	- > Research -> Central processing
 		- *Process locality is the practice of executing computation on the node where the required data already resides, or as close to it as possible, to minimize network data transfer. *
 		- **The Setup:** The data sat in a database or file system on a separate storage array.
@@ -36,4 +36,21 @@
 	- **2005** -> introduced mapreduce to DFS by Doug Cutting and introduced to market as HADOOP system.
 	-
 - ## Zeyobron -> Video4
+- Gateway -> To schedule and manage jobs/tasks
+- Cluster -> Involves multiple worker nodes that perform operations and send results to gateway.
+- Realtime implementation -> Putty session -> accessing the gateway -> gateway initiates the jobs -> Workers/nodes perform work
+-
+- Client
+	- ==> Gateway
+		- ==> Name Node
+			- ==> Data node 1 / Worker 1
+			- ==> Data node 2 / Worker 2
+			- ==> Data node 3 / Worker 3
+	-
+- Gateway allocation of work follows the below rules for worker nodes:
+	- Obeys the gateway
+	- pings gateway every 3 second
+	- if not ping for 10 mins, gateway assumes the node as **DEAD**
+	- at all times, workers should share their work with peers such that at any given time 3 copies of the work will be available to get backup in case of failures
+- ## Zeyobron -> Video5
 -

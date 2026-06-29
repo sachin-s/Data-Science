@@ -1,0 +1,16 @@
+## Hadoop interview videos
+- > What is Hadoop?
+- Hadoop is the distributed framework which has distributed storage and distributed processing mechanisms. It uses HDFS for distributed storage and MapReduce for distributed processing. Hadoop is highly durable and easily scalable.
+- > Components of Hadoop
+- Hadoop architecture consists of:
+	- => Gateway
+	- => Name Node
+	- => Standby Name Node
+	- => Jornal Node
+	- => Data Node
+	- => Zookeeper
+- > Block Size in Hadoop architecture
+	- 128 MB in Hadoop 2.0
+	- 64 MB in Hadoop 1.0
+- > What is Fault tolerance in Hadoop?
+- Hadoop has replication factor of 3, in which each block gets replicated, in case of failures (faults) can be handled.
